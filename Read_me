@@ -1,0 +1,12 @@
+Student: Macarof Radu
+Grupa : B5
+Am creau un proiect maven.
+Am reusit sa creez toate clasese dupa care am generat getter afarenti pentru diferite metode, construcotiri necesari ca mai apoi
+sa pot trece la implementarea metodelor save,load,view
+La implementarea acestor metode nu am intampinat dificultati. 
+Metoda save are ca argument un obiect de tip catalog, aceasta scrie intr-un 
+fisier datele din obiect la path-ul obtinut cu metoda getPath().
+Metoda load are ca argument un path. Aceasta are rolul de a citi datele din fisier(de la path-ul specificat) si atribui datele 
+catre un obiect de tip Catalog.
+Metoda view are ca argument un obiect de tip Document si are rolul de a deschide in browser fisierul specificat la path-ul gasit in obiect.
+Am testat daca clasa e suportata de platforma curenta, dupa care am afisat cu .browse
