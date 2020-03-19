@@ -4,6 +4,8 @@ Am creau un proiect maven.
 (In cazul in care doriti sa vedeti fisierele le puteti gasi in folderul "java5". Daca doriti sa vizualizati doar fisierele sursa accesati
 folderul "Laborator5")
 Am reusit sa creez toate clasese dupa care am generat getter afarenti pentru diferite metode, construcotiri necesari ca mai apoi
+Rolul clasei CatalogUtil: este o clasa responsabila cu operatiile externe dintre clasele Catalog si Document
+Rolul clasei InvalidCatalogException: este o clasa cu ajutorul careia cream o exceptie custom made.
 sa pot trece la implementarea metodelor save,load,view
 La implementarea acestor metode nu am intampinat dificultati. 
 Metoda save are ca argument un obiect de tip catalog, aceasta scrie intr-un 
