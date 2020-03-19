@@ -2,12 +2,21 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 
 public class Main {
-    public static void main(String args[]) throws InvalidCatalogException, IOException, URISyntaxException, ClassNotFoundException {
+    public static void main(String args[]) {
         Main app = new Main();
-        app.testCreateSave();
-        app.testLoadView();
+        try {
+            app.testCreateSave();
+            app.testLoadView();
+        } catch (InvalidCatalogException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
-
     private void testCreateSave() throws IOException {
         Catalog catalog =
                 new Catalog("Java Resources", "e:/baza/catalog.ser");
